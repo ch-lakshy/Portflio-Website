@@ -1,79 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lakshy Chaudhary's personal portfolio showcasing skills and projects in cybersecurity.">
     <title>Lakshy's Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
 </head>
+
 <body class="bg-gray-100 font-sans" onload="AOS.init();">
-    <section class="bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 text-white py-20 relative overflow-hidden">
-        <div class="absolute inset-0 opacity-20 z-0">
-            <img src="https://www.transparenttextures.com/patterns/debut-light.png" alt="">
-        </div>
-        <div class="container mx-auto text-center relative z-10">
-            <h1 data-aos="fade-down" class="text-6xl font-extrabold tracking-tight">LAKSHY CHAUDHARY</h1>
-            <p data-aos="fade-up" class="text-2xl mt-4">Passionately driven by the world of cybersecurity</p>
-        </div>
-    </section>
-    <section class="py-20">
-        <div class="container mx-auto px-4">            
-            <div class="flex flex-wrap -mx-4">
-                <div data-aos="fade-right" class="w-full md:w-1/2 px-4 mb-8 md:mb-0">
-                    <h2 class="text-4xl font-extrabold mb-8">About Me</h2>
-                    <p class="text-gray-700 leading-relaxed mb-6">
-                        I am Lakshy Chaudhary, passionately driven by the world of cybersecurity and dedicated to deepening my expertise in the field.
-                    </p>
-                    <ul class="mt-4 space-y-3 text-lg">
-                        <li>
-                            <span class="font-bold">Email:</span> lakshy.phogat@gmail.com
-                        </li>
-                        <li>
-                            <span class="font-bold">Phone:</span> 9548459978
-                        </li>
-                        <li>
-                            <span class="font-bold">Location:</span> Meerut, India
-                        </li>
-                    </ul>
-                </div>
-                <div data-aos="fade-left" class="w-full md:w-1/2 px-4">
-                    <img src="https://via.placeholder.com/400x500" alt="Lakshy's Portrait" class="w-full rounded-lg shadow-2xl">
-                </div>
+
+<!-- Navigation -->
+<header>
+    <nav class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" aria-label="Home" class="text-2xl font-bold">LAKSHY</a>
+            <div>
+                <a href="#home" class="ml-4">Home</a>
+                <a href="#about" class="ml-4">About</a>
+                <a href="#projects" class="ml-4">Projects</a>
+                <a href="#contact" class="ml-4">Contact</a>
             </div>
         </div>
-    </section>
-    <!-- Projects & Achievements -->
-    <section class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-extrabold mb-12 text-center" data-aos="fade-down">Projects & Achievements</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                <!-- Project 1 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up">
-                    <h3 class="text-2xl font-semibold mb-4">University Mobile App UI/UX</h3>
-                    <p>Designed and implemented user interface and user experience improvements for the university's mobile application.</p>
-                    <p class="mt-2">Conducted user research and gathered feedback to enhance usability and user satisfaction. Open-Source Contributions.</p>
-                </div>
-                <!-- Project 2 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="text-2xl font-semibold mb-4">Wi-Fi Vulnerability Scanner</h3>
-                    <p>Developed an application to scan Wi-Fi networks and identify vulnerabilities.</p>
-                    <p class="mt-2">Utilized programming languages and cybersecurity knowledge to implement efficient scanning algorithms.</p>
-                </div>
-                <!-- Achievement 1 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="text-2xl font-semibold mb-4">M.Sc. in Computer Science (AI)</h3>
-                    <p>Central University Of Rajasthan</p>
-                </div>
-                <!-- Achievement 2 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
-                    <h3 class="text-2xl font-semibold mb-4">Summer Intern at BITS Pilani</h3>
-                    <p>Worked on NTP DDOS mitigation system using rule-based approaches under the guidance of Dr. Vishal Gupta.</p>
-                </div>
+    </nav>
+</header>
+
+
+
+<!-- Introduction -->
+<section class="bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 text-white py-24 relative">
+    <div class="absolute inset-0 opacity-20 z-0">
+        <img src="https://www.transparenttextures.com/patterns/debut-light.png" alt="">
+    </div>
+    <div class="container mx-auto text-center relative z-10 space-y-5">
+        <h1 data-aos="fade-down" class="text-7xl font-extrabold tracking-tight">LAKSHY CHAUDHARY</h1>
+        <p data-aos="fade-up" class="text-3xl mt-2">Passionately driven by the world of cybersecurity</p>
+    </div>
+</section>
+
+<!-- About Me -->
+<section class="py-24">
+    <div class="container mx-auto px-4">            
+        <div class="flex flex-wrap items-center -mx-4">
+            <div data-aos="fade-right" class="w-full md:w-1/2 px-4 mb-12 md:mb-0">
+                <h2 class="text-5xl font-extrabold mb-10">About Me</h2>
+                <p class="text-gray-700 leading-relaxed mb-8 text-xl">
+                    I am Lakshy Chaudhary, passionately driven by the world of cybersecurity and dedicated to deepening my expertise in the field.
+                </p>
+                <ul class="mt-4 space-y-4 text-lg">
+                    <li>
+                        <span class="font-bold">Email:</span> lakshy.phogat@gmail.com
+                    </li>
+                    <li>
+                        <span class="font-bold">Phone:</span> 9548459978
+                    </li>
+                    <li>
+                        <span class="font-bold">Location:</span> Meerut, India
+                    </li>
+                </ul>
+            </div>
+            <div data-aos="fade-left" class="w-full md:w-1/2 px-4">
+                <img src="https://via.placeholder.com/400x500" alt="Lakshy's Portrait" class="w-full rounded-lg shadow-2xl">
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Projects & Achievements -->
+<section class="py-24 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <h2 class="text-5xl font-extrabold mb-16 text-center" data-aos="fade-down">Projects & Achievements</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- Project 1 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up">
+                <h3 class="text-3xl font-semibold mb-6">University Mobile App UI/UX</h3>
+                <p>Designed and implemented user interface and user experience improvements for the university's mobile application.</p>
+                <p class="mt-4">Conducted user research and gathered feedback to enhance usability and user satisfaction. Open-Source Contributions.</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="text-3xl font-semibold mb-6">Wi-Fi Vulnerability Scanner</h3>
+                <p>Developed an application to scan Wi-Fi networks and identify vulnerabilities.</p>
+                <p class="mt-4">Utilized programming languages and cybersecurity knowledge to implement efficient scanning algorithms.</p>
+            </div>
+            <!-- Achievement 1 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="text-3xl font-semibold mb-6">M.Sc. in Computer Science (AI)</h3>
+                <p>Central University Of Rajasthan</p>
+            </div>
+            <!-- Achievement 2 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="text-3xl font-semibold mb-6">Summer Intern at BITS Pilani</h3>
+                <p>Worked on NTP DDOS mitigation system using rule-based approaches under the guidance of Dr. Vishal Gupta.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="py-24 bg-white">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-5xl font-extrabold mb-16" data-aos="fade-down">Skills</h2>
+        <div class="flex justify-center flex-wrap">
+            <span class="m-2 px-6 py-2 bg-blue-100 rounded-full text-blue-600" data-aos="fade-up">Python</span>
+            <span class="m-2 px-6 py-2 bg-blue-100 rounded-full text-blue-600" data-aos="fade-up">Cybersecurity</span>
+            <span class="m-2 px-6 py-2 bg-blue-100 rounded-full text-blue-600" data-aos="fade-up">UI/UX Design</span>
+            <span class="m-2 px-6 py-2 bg-blue-100 rounded-full text-blue-600" data-aos="fade-up">Network Analysis</span>
+            <!-- ... Add more skills as needed ... -->
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="py-24 bg-gray-50">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-5xl font-extrabold mb-16" data-aos="fade-down">What They Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12" data-aos="fade-up">
+            <div class="p-6 shadow-lg rounded bg-white">
+                <p>"Lakshy is a passionate cybersecurity expert who always exceeds expectations."</p>
+                <p class="mt-4 font-bold">- John Doe, Company XYZ</p>
+            </div>
+            <div class="p-6 shadow-lg rounded bg-white">
+                <p>"His skills in UI/UX design transformed our mobile application entirely."</p>
+                <p class="mt-4 font-bold">- Jane Smith, ABC Tech</p>
+            </div>
+            <!-- ... Add more testimonials as needed ... -->
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-24 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-5xl font-extrabold mb-12 text-center" data-aos="fade-down">Contact Me</h2>
+        <form action="#" method="POST">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <input type="text" placeholder="Name" class="p-4 rounded border">
+                <input type="email" placeholder="Email" class="p-4 rounded border">
+            </div>
+            <textarea name="message" rows="5" class="w-full p-4 mt-6 rounded border" placeholder="Your Message"></textarea>
+            <button type="submit" class="mt-6 bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition">Submit</button>
+        </form>
+    </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto text-center">
+        <p class="mb-4">Connect with me on:</p>
+        <div>
+            <a href="#" aria-label="LinkedIn Profile" class="mx-4 hover:underline">LinkedIn</a>
+            <a href="#" aria-label="Twitter Profile" class="mx-4 hover:underline">Twitter</a>
+            <a href="#" aria-label="GitHub Profile" class="mx-4 hover:underline">GitHub</a>
+        </div>
+    </div>
+</footer>
+
 </body>
+
 </html>
