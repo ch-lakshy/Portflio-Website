@@ -5,42 +5,84 @@
     <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lakshy Chaudhary's personal portfolio showcasing skills and projects in cybersecurity.">
+    <meta name="description" content="Lakshy Chaudhary's personal portfolio showcasing skills and projects in cybersecurity">
 
     <!-- Title -->
-    <title>Lakshy's Portfolio</title>
+    <title>Lakshy's Cyberpunk Portfolio</title>
 
     <!-- Styles and Scripts -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js" defer></script>
+
+    <!-- Custom CSS for Cyberpunk Design -->
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header {
+            background-color: #222;
+            border-bottom: 1px solid #444;
+        }
+
+        header a {
+            color: #fff;
+        }
+
+        section {
+            border-bottom: 1px solid #444;
+        }
+
+        section h1,
+        section h2,
+        section h3,
+        section h4,
+        section h5,
+        section h6 {
+            color: #5f98c7;
+        }
+
+        section p {
+            color: #bbb;
+        }
+
+        footer {
+            background-color: #222;
+            color: #888;
+            border-top: 1px solid #444;
+        }
+
+        footer a {
+            color: #5f98c7;
+        }
+    </style>
 </head>
 
-<body class="bg-gray-100 font-sans" onload="AOS.init();;">
+<body class="font-sans" onload="AOS.init();">
 
-
-<!-- Navigation -->
-<header>
-    <nav class="bg-gray-900 text-white py-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="#" aria-label="Home" class="text-2xl font-bold">LAKSHY</a>
-            <div>
-                <a href="#home" class="ml-4">Home</a>
-                <a href="#about" class="ml-4">About</a>
-                <a href="#projects" class="ml-4">Projects</a>
-                <a href="#contact" class="ml-4">Contact</a>
+    <!-- Navigation -->
+    <header>
+        <nav class="bg-gray-900 text-white py-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="#" aria-label="Home" class="text-2xl font-bold">LAKSHY</a>
+                <div>
+                    <a href="#home" class="ml-4">Home</a>
+                    <a href="#about" class="ml-4">About</a>
+                    <a href="#projects" class="ml-4">Projects</a>
+                    <a href="#contact" class="ml-4">Contact</a>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
-
-
-<!-- Introduction -->
-<section class="bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 text-white py-24 relative">
-    <div class="absolute inset-0 opacity-20 z-0">
+    <!-- Introduction -->
+    <section class="bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 text-white py-24 relative">
+        <div class="absolute inset-0 opacity-20 z-0">
         <img src="https://www.transparenttextures.com/patterns/debut-light.png" alt="">
     </div>
     <div class="container mx-auto text-center relative z-10 space-y-5">
@@ -155,9 +197,6 @@
     </div>
 </section>
 
-
-
-<!-- Footer -->
 <footer class="bg-gray-900 text-white py-8">
     <div class="container mx-auto text-center">
         <p class="mb-4">Connect with me on:</p>
@@ -172,3 +211,4 @@
 </body>
 
 </html>
+
